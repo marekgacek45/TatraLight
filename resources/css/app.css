@@ -1,3 +1,4 @@
+@import './hamburger.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +10,20 @@ header::before {
     inset: 0;
     background-color: rgba(0, 0, 0, 0.5); /* Kolor tła z przezroczystością (RGBA) */
     z-index: 5; /* Umieść nad wideo (zmień wartość według potrzeb) */
+}
+
+/* .hidden-fade {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(-10px);
+}
+
+.visible-fade {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+} */
+
+.opacity-transition {
+    transition: opacity .5s ease-in-out; /* Ustaw czas i efekt przejścia */
 }
