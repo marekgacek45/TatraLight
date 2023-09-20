@@ -1,4 +1,4 @@
-<nav class=" fixed top-0 w-full bg-red-500 z-50">
+<nav class=" fixed top-0 w-full bg-mainColor z-50">
 
     <!--CONTAINER -->
     <div class="relative max-w-screen-xl flex justify-between items-center mx-auto px-2 md:py-3 ">
@@ -13,7 +13,7 @@
 
         <!--LOGO CENTER -->
         <div
-            class="logo-center absolute top-0 -bottom-10 left-1/2 transform -translate-x-1/2 flex justify-center items-center  px-4 bg-black transition-transform duration-300 ease-in-out ">
+            class="logo-center absolute top-0 -bottom-10 left-1/2 transform -translate-x-1/2 flex justify-center items-center  px-4 bg-mainColor box-shadow--nav transition-transform duration-300 ease-in-out ">
             <a href="#">
                 <img src="{{ asset('assets/logo--white.png') }}" alt="logo firmy Tatra Light" width="160px">
             </a>
@@ -21,7 +21,7 @@
 
         <!--LIST ITEMS -->
         <div
-            class="nav-list absolute top-0 bottom-0 left-1/2 hidden md:flex opacity-0 opacity-transition  transform -translate-x-1/2">
+            class="nav-list absolute top-0 bottom-0 left-1/2 hidden md:flex opacity-0 opacity-transition  transform -translate-x-1/2 text-white">
             <x-navigation.listItems class="flex justify-center items-center gap-5 text-base uppercase font-semibold" />
         </div>
 
