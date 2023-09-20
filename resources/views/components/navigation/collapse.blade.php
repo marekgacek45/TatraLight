@@ -1,8 +1,6 @@
-<div class="overlay absolute inset-0 bg-black text-white z-30 left-[780px] transition-all duration-1000 top-14 flex justify-center items-center md:hidden">
-    <ul>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-    </ul>
+<div class="overlay absolute md:hidden -left-[-800px] w-full h-full bg-black text-white z-30 ">
+    <div class="relative flex justify-center items-center h-full ">
+        <x-navigation.listItems class="top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-14 p-0  flex flex-col justify-center items-center gap-8 list-none text-2xl uppercase " />
+    </div>
+    
 </div>

@@ -1,32 +1,38 @@
-<nav class="bg-red-500 fixed top-0 w-full z-50">
-    <div class="max-w-screen-xl flex justify-between items-center mx-auto px-2 relative">
-  <!--LOGO LEFT -->
-  <div class="logo-left transform -translate-x-[-150px] ml-[-140px] transition-transform duration-300 ease-in-out">
-    <a href="#">
-        <img src="{{asset('assets/logo--sign.png')}}" alt="" width="50px">
-    </a>
-</div>
+<nav class=" fixed top-0 w-full bg-red-500 z-50">
 
-        <!--LOGO CENTER -->
-        <div class="logo-center absolute bg-black top-0 -bottom-10 left-1/2 flex justify-center items-center transform -translate-x-1/2 px-4 transition-transform duration-300 ease-in-out ">
+    <!--CONTAINER -->
+    <div class="relative max-w-screen-xl flex justify-between items-center mx-auto px-2 md:py-3 ">
+
+        <!--LOGO LEFT -->
+        <div
+            class="logo-left transform -translate-x-[-250px] ml-[-245px] transition-transform duration-300 ease-in-out invisible">
             <a href="#">
-                <img src="{{asset('assets/logo--white.png')}}" alt="" width="90px">
+                <img src="{{ asset('assets/logo--sign.png') }}" alt="logo firmy TatraLight" width="45px">
             </a>
         </div>
-        <div class="nav-list hidden md:flex opacity-0 opacity-transition">
-            <ul class="flex">
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
-            </ul>
+
+        <!--LOGO CENTER -->
+        <div
+            class="logo-center absolute top-0 -bottom-10 left-1/2 transform -translate-x-1/2 flex justify-center items-center  px-4 bg-black transition-transform duration-300 ease-in-out ">
+            <a href="#">
+                <img src="{{ asset('assets/logo--white.png') }}" alt="logo firmy Tatra Light" width="160px">
+            </a>
         </div>
 
-<div class="hidden md:block nav-social transform -translate-x-[150px] ml-[150px] transition-transform duration-300 ease-in-out">
-    <button>test</button>
-</div>
+        <!--LIST ITEMS -->
+        <div
+            class="nav-list absolute top-0 bottom-0 left-1/2 hidden md:flex opacity-0 opacity-transition  transform -translate-x-1/2">
+            <x-navigation.listItems class="flex justify-center items-center gap-5 text-base uppercase font-semibold" />
+        </div>
 
 
-          <!--HAMBURGER -->
+        <!--SOCIAL ITEMS -->
+        <div
+            class="nav-social hidden md:flex justify-center items-center gap-4 transform translate-x-[-250px] mr-[-245px] transition-transform duration-300 ease-in-out invisible">
+            <x-socialItems />
+        </div>
+
+        <!--HAMBURGER -->
         <div class="ml-auto md:hidden">
             <button class="hamburger hamburger--spring" type="button">
                 <span class="hamburger-box">
@@ -36,4 +42,3 @@
         </div>
     </div>
 </nav>
-

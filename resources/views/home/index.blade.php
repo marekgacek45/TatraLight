@@ -7,7 +7,7 @@
     <title>TatraLight</title>
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
-<body class="relative min-h-screen overflow-x-hidden">
+<body class="relative overflow-x-hidden">
    <!--NAVIGATION -->
    <x-navigation.topBar />
   
