@@ -26,3 +26,6 @@ body{
     }
 
     
+
+    .gradient{
+        background: linear-gradient(156deg, rgba(217,249,157,1) 7%, rgba(22,81,79,1) 38%);}

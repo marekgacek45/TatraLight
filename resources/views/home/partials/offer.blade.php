@@ -21,7 +21,7 @@
 
      <div class="py-24 flex justify-center items-center ">
 
-        <button type="button" class="py-3 px-7 mr-2 mb-2 text-md font-medium uppercase text-gray-900 focus:outline-none bg-secondaryColor rounded-full border  hover:bg-white hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 animate-pulse ">Dowiedz się więcej</button>
+       <x-buttons.cta>Dowiedz się więcej</x-buttons.cta>
 
      </div>
     

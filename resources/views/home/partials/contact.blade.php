@@ -1,22 +1,39 @@
-<section class='about-bg w-full h-full text-white  bg-gray-700 bg-blend-multiply bg-center px-10 md:px-0 pt-16 md:pt-24 pb-16'>
+<section
+    class='about-bg w-full h-full text-white  bg-gray-700 bg-blend-multiply bg-center px-10 md:px-0 pt-16 md:pt-24 pb-16'>
 
-<div class="max-w-screen-xl flex border border-red-400 mx-auto">
+  
+    <div class="max-w-screen-xl mx-auto py-24">
+    <div class="relative flex lg:block flex-col m-2 xs:m-6 md:m-12 mb-6 lg:mb-0  bg-mainColor-400 lg:bg-transparent  text-white ">
+        <div class="lg:w-1/2 m-4 sm:m-6 lg:border-4 border-white  overflow-hidden box-shadow">
+            <img src="https://th.bing.com/th/id/OIG..FPvcxcRHtUt4uLygAhs?pid=ImgGn"
+                alt="" class="w-full h-[400px] lg:h-[560px] object-cover" loading="lazy">
+        </div>
+        <div class="lg:absolute  lg:w-1/2 lg:top-1/2 lg:right-20 lg:transform lg:-translate-y-1/2 w-full md:px-6 md:mb-12 lg:mb-0 lg:p-6 bg-mainColor  z-10 box-shadow">
+    
+            
+            <div class="p-4 sm:px-8 lg:px-2 xl:px-6 space-y-2 sm:space-y-3 lg:space-y-5 text-left text-base font-light">
+                <h2 class=" text-3xl lg:text-5xl text-bold">Skontaktuj się z nami</h2>
 
-<div class="border w-1/2 flex justify-center "> <img src="https://th.bing.com/th/id/OIG.mSWV3Vwe_LD2bgJiX623?pid=ImgGn" alt="" width="500px"></div>
-<div class="border w-1/2">
-<h2>Skontaktuj się z nami</h2>
-
-<div>
-    <div class="flex justify-start items-center"><img src="{{asset('assets/icons/pin.png')}}" alt=""><a href="">testowa 123<br>34-400 Nowy Targ</a></div>
-   <div class="flex justify-start items-center"><a href=""></a> <img src="{{asset('assets/icons/phone.png')}}" alt="">123-456-789</div>
-    <div class="flex justify-start items-center"><a href=""></a><img src="{{asset('assets/icons/envelope.png')}}" alt="">test@gmail.com</div>
-</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d20643.52647893982!2d20.4131107!3d49.7025024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1statralight!5e0!3m2!1spl!2spl!4v1695271321124!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-<button type="button" class="py-3 px-7 mr-2 mb-2 text-md font-medium uppercase text-gray-900 focus:outline-none bg-secondaryColor rounded-full border  hover:bg-white hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-200 animate-pulse ">Napisz do nas</button>
-</div>
-</div>
-
+                <div class="flex flex-col gap-6">
+                    <div class="flex justify-start items-center gap-4"><img src="{{ asset('assets/icons/pin.png') }}"
+                            alt="" width="30px"><a href="" class="text-base">testowa 123<br>34-400 Nowy Targ</a></div>
+                    <div class="flex justify-start items-center gap-4"><img src="{{ asset('assets/icons/phone.png') }}"
+                            alt="" width="30px"><a href="" class="text-base">123-456-789</a> </div>
+                    <div class="flex justify-start items-center gap-4"><img src="{{ asset('assets/icons/envelope.png') }}"
+                            alt="" width="30px"><a href="" class="text-base">test@gmail.com</a></div>
+                </div>
+                <div class="self-center py-6">
+    
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d20643.52647893982!2d20.4131107!3d49.7025024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1statralight!5e0!3m2!1spl!2spl!4v1695271321124!5m2!1spl!2spl"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                    
+    
+               <x-buttons.cta>Napisz do nas</x-buttons.cta>
+            </div>
+        </div>
+    </div></div>
 
 </section>
