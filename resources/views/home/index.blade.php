@@ -17,7 +17,10 @@
 
 
  <main>
+  @include('home.partials.offer')
   @include('home.partials.about')
+  @include('home.partials.contact')
+
 </main>
 
 <x-footer/>
