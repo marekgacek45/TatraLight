@@ -15,7 +15,7 @@
    <!--HEADER -->
    @include('home.partials.header')
 
-
+<!--MAIN -->
  <main>
   @include('home.partials.offer')
   @include('home.partials.about')
