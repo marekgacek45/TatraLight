@@ -3,19 +3,19 @@
 
         <div class="w-full md:w-1/2 flex flex-row md:flex-col flex-wrap justify-center items-end gap-2 sm:gap-1 xl:mr-20 mb-12 md:mb-0">
 
-            <div class="border border-mainColor 
+            <div class=" 
             max-h-[250px] sm:max-h-[300px]  md:max-h-[300px] lg:max-h-[300px] 
             max-w-[300px] sm:max-w-[350px]  md:max-w-[300px] lg:max-w-[350px] 
-           pt-8 xs:pt-0  md:mr-32"><img
+           pt-8 mt-0  md:mr-32"><img
                     src="https://th.bing.com/th/id/OIG.TA3p7653MuH2yiFWrr2i?pid=ImgGn" alt=""
                     class="  w-full object-cover box-shadow--img3"></div>
-            <div class="border border-mainColor 
+            <div class="
             max-h-[150px] sm:max-h-[200px] md:max-h-[300px] lg:max-h-[200px] 
             max-w-[200px] sm:max-w-[250px]  md:max-w-[300px] lg:max-w-[250px] 
             ml-6 sm:ml-0 md:mr-12"><img
                     src="https://th.bing.com/th/id/OIG.KJ.WIqzLuFTZS6TpyESe?w=270&h=270&c=6&r=0&o=5&pid=ImgGn" alt=""
                     class="  w-full object-cover box-shadow--img3"></div>
-            <div class="border border-mainColor 
+            <div class="
             max-h-[250px] sm:max-h-[300px] md:max-h-[350px] lg:max-h-[300px] 
             max-w-[250px] sm:max-w-[300px] md:max-w-[350px] lg:max-w-[300px] 
             mr-16 sm:mr-0 md:mr-48"><img
