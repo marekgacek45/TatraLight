@@ -1,6 +1,6 @@
 
 <ul {{$attributes(['class'=>""])}}>
-    <a href=""><li>O nas</li></a>
+    <a href="{{route('about')}}"><li>O nas</li></a>
     <a href=""><li>Oferta</li></a>
     <a href=""><li>Galeria</li></a>
     <a href=""><li>Kontakt</li></a>
