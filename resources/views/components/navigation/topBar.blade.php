@@ -6,7 +6,7 @@
         <!--LOGO LEFT -->
         <div
             class="logo-left transform -translate-x-[-250px] ml-[-245px] transition-transform duration-300 ease-in-out invisible">
-            <a href="#">
+            <a href="{{route('home')}}">
                 <img src="{{ asset('assets/logo--sign.png') }}" alt="logo firmy TatraLight" width="45px">
             </a>
         </div>
@@ -14,7 +14,7 @@
         <!--LOGO CENTER -->
         <div
             class="logo-center absolute top-0 -bottom-10 left-1/2 transform -translate-x-1/2 flex justify-center items-center  px-4 bg-mainColor box-shadow--nav transition-transform duration-300 ease-in-out ">
-            <a href="#">
+            <a href="{{route('home')}}">
                 <img src="{{ asset('assets/logo--white.png') }}" alt="logo firmy Tatra Light" width="160px">
             </a>
         </div>

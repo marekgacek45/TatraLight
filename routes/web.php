@@ -16,5 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class,'home'])->name('home');
 Route::get('/o-nas', [PagesController::class,'about'])->name('about');
+Route::get('/oferta', [PagesController::class,'offer'])->name('offer');
+Route::get('/galeria', [PagesController::class,'gallery'])->name('gallery');
+Route::get('/kontakt', [PagesController::class,'contact'])->name('contact');
 
 
