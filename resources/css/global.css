@@ -1,56 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
 
-.nav-collapse{
-    left:0 !important
+.nav-collapse {
+    left: 0 !important;
 }
 
-.about-bg{
-    background-image: url('../../public/assets/images/headerBG2.png');
-   background-position: cover;
+.about-bg {
+    background-image: url("../../public/assets/images/headerBG2.png");
+    background-position: cover;
 
     background-size: contain;
     background-attachment: fixed;
     /* background-repeat: no-repeat; */
 }
 
-.box-shadow{
+.box-shadow {
     box-shadow: 0px 1px 20px 1px white;
 }
 
-.box-shadow--img{
+.box-shadow--img {
     box-shadow: 0px 0px 15px 0px rgba(217, 249, 157, 1);
 }
-.box-shadow--img2{
+.box-shadow--img2 {
     box-shadow: 3px 0px 15px 0px rgba(217, 249, 157, 1);
 }
-.box-shadow--img3{
+.box-shadow--img3 {
     box-shadow: 3px 0px 15px 0px #16514f;
 }
 
-.box-shadow--nav{
-    box-shadow: 0px 3px 20px 3px white}
-
-body{
-    font-family: 'Roboto', sans-serif;
-    
+.box-shadow--nav {
+    box-shadow: 0px 3px 20px 3px white;
 }
 
-    h1,h2,h3,h4,h5,h6,h7{
-        font-family: 'Roboto Condensed', sans-serif;
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    font-family: "Roboto Condensed", sans-serif;
+}
 
 
-    }
 
-    p{
-        @apply leading-7 font-light
-    }
-    
+.gradient {
+    background: linear-gradient(
+        156deg,
+        rgba(217, 249, 157, 1) 7%,
+        rgba(255, 255, 255) 38%
+    );
+}
 
-    .gradient{
-        background: linear-gradient(156deg, rgba(217,249,157,1) 7%, rgba(255,255,255) 38%);}
+.test:nth-child(even) .test-img {
+    @apply -order-none md:order-1  lg:-order-none;
+};
 
+/*Te już są poprawne*/
+.heading {
+    @apply text-3xl lg:text-5xl font-bold mb-12;
+}
+p {
+    @apply leading-7 font-light;
+}
 
+.primarySection:nth-child(1){
+    @apply pt-48
+}
 
-        .test:nth-child(even) .test-img{
-            @apply -order-none md:order-1  lg:-order-none
-        }
+.box-shadow--img {
+    box-shadow: 0px 0px 15px 0px rgba(217, 249, 157, 1);
+}
