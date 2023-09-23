@@ -5,11 +5,26 @@
 }
 
 .about-bg{
-    background-image: url('../../public/assets/images/headerBG.png');
+    background-image: url('../../public/assets/images/headerBG2.png');
+   background-position: cover;
+
+    background-size: contain;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
 }
 
 .box-shadow{
     box-shadow: 0px 1px 20px 1px white;
+}
+
+.box-shadow--img{
+    box-shadow: 0px 0px 15px 0px rgba(217, 249, 157, 1);
+}
+.box-shadow--img2{
+    box-shadow: 3px 0px 15px 0px rgba(217, 249, 157, 1);
+}
+.box-shadow--img3{
+    box-shadow: 3px 0px 15px 0px #16514f;
 }
 
 .box-shadow--nav{
@@ -17,6 +32,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
 
     h1,h2,h3,h4,h5,h6,h7{
@@ -25,7 +41,16 @@ body{
 
     }
 
+    p{
+        @apply leading-7 font-light
+    }
     
 
     .gradient{
-        background: linear-gradient(156deg, rgba(217,249,157,1) 7%, rgba(22,81,79,1) 38%);}
+        background: linear-gradient(156deg, rgba(217,249,157,1) 7%, rgba(255,255,255) 38%);}
+
+
+
+        .test:nth-child(even) .test-img{
+            @apply -order-none md:order-1  lg:-order-none
+        }
