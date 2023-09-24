@@ -18,11 +18,6 @@
     <main>
         <!--FIRST SECTION-->
         <x-primarySection.primarySection>
-
-
-
-
-
             <!--IMAGES-->
             <x-primarySection.image
             :srcOne="'https://th.bing.com/th/id/OIG.wQsdRxjQa11q_DB4kdAA?pid=ImgGn'"
@@ -32,8 +27,6 @@
             :srcThree="'https://th.bing.com/th/id/OIG.yUOXr6b69ipWrzC1mYPj?pid=ImgGn'"
             :altThree="''"
             />
-               
-            
             <!--TEXT-->
             <x-primarySection.text>
                 <img src="{{ asset('assets/logo--white.png') }}" alt="" width="350px" class="mb-12">
@@ -49,6 +42,9 @@
                 <x-timeline />
             </x-primarySection.text>
         </x-primarySection.primarySection>
+
+
+        
  <!--SECOND SECTION-->
  <x-primarySection.primarySection>
     <!--IMAGES-->

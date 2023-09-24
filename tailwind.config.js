@@ -11,7 +11,8 @@ export default {
         'xs': '450px'},
       colors:{
         mainColor:'#16514f',
-        test:'#0c2e2d',
+      
+        overlayColor:'#185c5a',
         secondaryColor:'#d9f99d'
       }
     },

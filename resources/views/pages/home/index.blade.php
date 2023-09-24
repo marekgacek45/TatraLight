@@ -13,13 +13,13 @@
   
    <x-navigation.collapse/>
    <!--HEADER -->
-   @include('home.partials.header')
+   @include('pages.home.partials.header')
 
 <!--MAIN -->
  <main>
-  @include('home.partials.offer')
-  @include('home.partials.about')
-  @include('home.partials.contact')
+  @include('pages.home.partials.offer')
+  @include('pages.home.partials.about')
+  @include('pages.home.partials.contact')
 
 </main>
 

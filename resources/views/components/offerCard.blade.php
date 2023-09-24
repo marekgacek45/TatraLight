@@ -7,7 +7,7 @@
     <div class="space-y-3 ">
 
         <h3 class="text-2xl font-semibold text-secondaryColor">{{$heading}}</h3>
-        <p>{{$slot}}</p>
+        <p >{{$slot}}</p>
     </div>
     </div>
 

@@ -11,7 +11,7 @@
         <img src="{{$srcOne}}" alt="{{$altOne}}"
             class="absolute w-full object-cover 
           left-6 xs:left-0 sm:right-2 top-5 md:top-5 lg:right-20 
-            border border-secondaryColor bs-img ">
+            border border-mainColor bs-img--dark ">
     </div>
     <div class="mr-24 relative
     w-60 h-60
@@ -23,7 +23,7 @@
         <img src="{{$srcTwo}}" alt="{{$altTwo}}"
             class="absolute w-full object-cover  border 
             left-16 xs:left-28 md:left-12 lg:left-28
-             border-secondaryColor box-shadow--img ">
+            border-mainColor bs-img--dark  ">
     </div>
     <div class="mr-24 relative 
     w-48 h-48
@@ -35,7 +35,7 @@
         <img src="{{$srcThree}}" alt="{{$altThree}}"
             class="absolute w-full object-cover  border 
              left-4 xs:left-0 bottom-12 right-6 md:bottom-6 lg:bottom-12 lg:right-6
-             border-secondaryColor box-shadow--img">
+             border-mainColor bs-img--dark ">
     </div>
 
 </div>

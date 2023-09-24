@@ -1,15 +1,14 @@
 <section
-    class='about-bg w-full h-full text-white  bg-test bg-blend-multiply bg-center px-10 md:px-0 pt-16 md:pt-36 pb-16 md:pb-36'>
+    class='bgi bgi--two w-full h-full text-white  bg-overlayColor bg-blend-multiply bg-center px-10 md:px-0 pt-16 md:pt-36 pb-16 md:pb-36'>
 
   
-    {{-- <div class="max-w-screen-xl mx-auto py-24"> --}}
     <div class="max-w-screen-xl mx-auto ">
     <div class="relative flex lg:block flex-col m-2 xs:m-6 md:m-12 mb-6 lg:mb-0  bg-mainColor-400 lg:bg-transparent  text-white ">
         <div class="lg:w-1/2 m-4 sm:m-6 lg:border-4 border-secondaryColor  overflow-hidden box-shadow--img">
             <img src="https://th.bing.com/th/id/OIG..FPvcxcRHtUt4uLygAhs?pid=ImgGn"
                 alt="" class="w-full h-[400px] lg:h-[560px] object-cover" loading="lazy">
         </div>
-        <div class="lg:absolute  lg:w-1/2 lg:top-1/2 lg:right-10 lg:transform lg:-translate-y-1/2 w-full md:px-6 md:mb-12 lg:mb-0 lg:p-6 about-bg bg-test bg-blend-multiply z-10 box-shadow--img2">
+        <div class="lg:absolute  lg:w-1/2 lg:top-1/2 lg:right-10 lg:transform lg:-translate-y-1/2 w-full md:px-6 md:mb-12 lg:mb-0 lg:p-6 bgi bgi--one bg-overlayColor bg-blend-multiply z-10 box-shadow--img2">
     
             
             <div class="p-4 sm:px-8 lg:px-2 xl:px-6 space-y-2 sm:space-y-3 lg:space-y-5 text-left text-base font-light">
@@ -33,7 +32,7 @@
                 </div>
                     
     
-               <x-buttons.cta>Napisz do nas</x-buttons.cta>
+               <x-buttons.primary>Napisz do nas</x-buttons.primary>
             </div>
         </div>
     </div></div>

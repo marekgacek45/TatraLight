@@ -1,0 +1,30 @@
+.about-bg {
+    background-image: url("../../public/assets/images/headerBG2.png");
+    background-position: cover;
+
+    background-size: contain;
+    background-attachment: fixed;
+ 
+}
+
+
+
+/*NOWE*/
+.bgi {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+ 
+}
+
+.bgi--gradient{
+    background-image: url("../../public/assets/images/bgGradient.png");
+}
+
+.bgi--one{
+    background-image: url("../../public/assets/images/bg1.png");
+}
+.bgi--two{
+    background-image: url("../../public/assets/images/bg2.png");
+}
