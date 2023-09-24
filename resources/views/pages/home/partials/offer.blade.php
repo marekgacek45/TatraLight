@@ -1,4 +1,4 @@
-<x-secondarySection.container class="bgi--one bg-overlayColor">
+<x-secondarySection.container class="bgi--one bg-overlayColor pt-16 lg:pt-20">
    <x-secondarySection.text>
     <h2 class=" heading mb-4 text-secondaryColor">Odkryj świat TatraLight: Mistrzowie Reklamy Świetlnej</h2>
     <p class="text-white">W TatraLight, pasja do tworzenia wyjątkowej reklamy świetlnej stanowi serce naszej działalności. Jesteśmy z Nowego Targu, miejscowości otoczonej malowniczymi Tatrami, co inspiruje nas do kreowania rozwiązań, które przyciągają wzrok i wzbudzają emocje. Nasza firma to miejsce, gdzie nauka, kreatywność i innowacje spotykają się, tworząc unikalne projekty oświetleniowe, które pomagają naszym klientom wyróżnić się w gąszczu konkurencji.</p>

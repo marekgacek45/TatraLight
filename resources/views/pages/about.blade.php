@@ -17,7 +17,7 @@
     
     <main>
         <!--FIRST SECTION-->
-        <x-primarySection.primarySection>
+        <x-primarySection.primarySection class="bgi--two bg-overlayColor">
             <!--IMAGES-->
             <x-primarySection.image
             :srcOne="'https://th.bing.com/th/id/OIG.wQsdRxjQa11q_DB4kdAA?pid=ImgGn'"
@@ -30,7 +30,7 @@
             <!--TEXT-->
             <x-primarySection.text>
                 <img src="{{ asset('assets/logo--white.png') }}" alt="" width="350px" class="mb-12">
-                <p>Jesteśmy zespołem pasjonatów z TatraLight, którzy od lat oddają się fascynacji światłem i sztuką
+                <p class="text-white">Jesteśmy zespołem pasjonatów z TatraLight, którzy od lat oddają się fascynacji światłem i sztuką
                     oświetlenia. Nasza historia zaczęła się w malowniczym Nowym Targu, gdzie otaczające nas Tatry
                     zainspirowały nas do tworzenia niezwykłych projektów oświetleniowych. Dzięki naszemu zaangażowaniu i
                     ekspertyzie, TatraLight stała się miejscem, gdzie nauka, kreatywność i innowacje spotykają się, by
@@ -46,9 +46,9 @@
 
         
  <!--SECOND SECTION-->
- <x-primarySection.primarySection>
+ <x-primarySection.primarySection class="bgi--gradient">
     <!--IMAGES-->
-    <x-primarySection.image class="md:order-1"
+    <x-primarySection.imageDark class="md:order-1"
     :srcOne="'https://th.bing.com/th/id/OIG.wQsdRxjQa11q_DB4kdAA?pid=ImgGn'"
     :altOne="''"
     :srcTwo="'https://th.bing.com/th/id/OIG.shs4jn5H99nL5Tq_0MJx?pid=ImgGn'"
