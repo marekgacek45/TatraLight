@@ -91,12 +91,12 @@ img {
 }
 
 /* Main CSS */
-.grid-wrapper > div {
+.grid-wrapper > a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.grid-wrapper > div > img {
+.grid-wrapper > a> img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
