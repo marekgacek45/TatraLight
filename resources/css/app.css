@@ -3,6 +3,7 @@
 @import './text.css';
 @import './backgrounds.css';
 @import './boxShadows.css';
+@import './gallery.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
